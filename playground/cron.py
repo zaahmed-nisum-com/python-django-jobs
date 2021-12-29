@@ -2,8 +2,7 @@ from django.shortcuts import render
 import logging
 logger = logging.getLogger('django')
 
-
-async def cron_job():
-    print('zain ahmed')
-    logger.info('job called')
-    return  1
+def cron_job_file():
+    f =open('/Users/zahmed 1/Desktop/pythoncronjob/pythontextfile_1.txt','w')
+    f.write("Now the file has more content!")
+    f.close()

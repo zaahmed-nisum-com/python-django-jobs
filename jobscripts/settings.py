@@ -143,5 +143,5 @@ LOGGING = {
 }
 
 CRONJOBS = [
-    ('*/10 * * * * *', 'playground.cron.cron_job')
+    ('*/10 * * * * *', 'playground.cron.cron_job_file')
 ]
