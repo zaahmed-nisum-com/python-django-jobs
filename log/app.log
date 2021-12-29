@@ -1,0 +1,3 @@
+logging testing
+job called
+"GET /playground/hello/ HTTP/1.1" 200 11
